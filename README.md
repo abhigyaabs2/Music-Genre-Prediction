@@ -159,7 +159,7 @@ Test Accuracy: 85.1%
 
 2. **Launch Streamlit app:**
 ```bash
-streamlit run app.py
+streamlit run music.py
 ```
 
 3. **Open your browser:**
@@ -340,22 +340,13 @@ Navigate to `http://localhost:8501`
 ```
 music-genre-prediction/
 │
-├── music_genre_prediction.py    # Model training script
-├── app.py                        # Streamlit web application
-├── requirements.txt              # Python dependencies
+├── music_genre_prediction.ipynb    # Model training script
+├── music.py                        # Streamlit web application
 ├── README.md                     # Project documentation
 │
 ├── models/                       # Saved models (generated)
-│   ├── genre_classifier_model.pkl
-│   └── tfidf_vectorizer.pkl
-│
-├── screenshots/                  # UI screenshots
-│   ├── main.png
-│   ├── results.png
-│   └── analysis.png
-│
-└── notebooks/                    # Jupyter notebooks (optional)
-    └── exploratory_analysis.ipynb
+│   ├── classifier_model.pkl
+│   └── vectorizer.pkl
 ```
 
 ---
